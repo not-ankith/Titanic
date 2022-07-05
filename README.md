@@ -21,10 +21,10 @@ Data cleaning :
 
 Visualization:
 * used Bar Graphs to understand the survivability based on gender,Ticket class,embarkment
-* Heat map to find coorelation b/w data
+* Heat map to find corelation b/w data
 
 Pre-processing:
-* Converting categorical variables using LabelEncoder for Sex, dummies for Embarkment
+* Converting categorical variables using LabelEncoder for Sex, dummies for Embarkment section
 * Scaling the data using standard scalar.
 
 Model:
@@ -36,7 +36,9 @@ Model:
 
 |Model |Accuracy |Rank
 |--------|---------|-------|
-|logistic regression |0.79425|855|
-|Random forest with Knn imputation|0.79425|855|
-|Random forests with |0.79425|855|
+|logistic regression |0.77033|9000|
+|Random forests with robust scaler |0.77751|4211|
+|Random forest with Knn imputation& SS|0.78708|2193|
+|Random forests with mean age val & SS|0.79425|855|
 
+SS - standard scaler
